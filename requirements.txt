@@ -1,1 +1,11 @@
-#this is requirements.txt
+numpy
+faiss-cpu
+torch
+textwrap
+tqdm
+dotenv
+sentence-transformers
+langchain
+streamlit
+mistralai
+
