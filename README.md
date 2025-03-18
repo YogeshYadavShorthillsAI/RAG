@@ -1,4 +1,3 @@
-Here is your full `README.md` file. You can copy and paste it directly into your project.
 
 ```markdown
 # Retrieval-Augmented Generation (RAG) Based QA System  
@@ -108,15 +107,3 @@ python evaluation.py
 For detailed documentation, follow the link:  
 [Click here to access the documentation](https://shorthillstech.sharepoint.com/:fl:/g/contentstorage/CSP_140196ef-9842-4f78-bfac-4aea9a3944e6/Ea5vcR4_mL1Eg3qwmeN50PUB-2_f1m3Yql4WFJ6YvjfSFw?e=RcbD1V&nav=cz0lMkZjb250ZW50c3RvcmFnZSUyRkNTUF8xNDAxOTZlZi05ODQyLTRmNzgtYmZhYy00YWVhOWEzOTQ0ZTYmZD1iJTIxNzVZQkZFS1llRS1fckVycW1qbEU1bmtyU0hGdEh6VlByZTU3UUVsdE1XemVad3JBRlVEVlNabWdRVFBmb2tCayZmPTAxSVhDNEhEVk9ONVlSNFA0WVhWQ0lHNlZRVEhSWFRVSFYmYz0lMkYmYT1Mb29wQXBwJnA9JTQwZmx1aWR4JTJGbG9vcC1wYWdlLWNvbnRhaW5lciZ4PSU3QiUyMnclMjIlM0ElMjJUMFJUVUh4emFHOXlkR2hwYkd4emRHVmphQzV6YUdGeVpYQnZhVzUwTG1OdmJYeGlJVGMxV1VKR1JVdFpaVVV0WDNKRmNuRnRhbXhGTlc1cmNsTklSblJJZWxaUWNtVTFOMUZGYkhSTlYzcGxXbmR5UVVaVlJGWlRXbTFuVVZSUVptOXJRbXQ4TURGSldFTTBTRVJZUmtkRVVrWlVXVFJUUkZKSVdsVlZSbEZJTTFnMFFqWktWUSUzRCUzRCUyMiUyQyUyMmklMjIlM0ElMjJiNGJhZDZiOC00MDgxLTRkMjQtYjY1YS02YjdjZjU1ODE4ZTklMjIlN0Q%3D)  
 
----
-
-## Contributions  
-Feel free to open issues and submit PRs for improvements!  
-
----
-
-## License  
-This project is licensed under [MIT License](LICENSE).  
-```
-
-This `README.md` file is fully formatted and ready to be pasted into your project. Let me know if you need any modifications! 🚀
