@@ -1,0 +1,39 @@
+Mar 16 10:30:29 SHTLP0113 systemd[1]: Starting NVIDIA Persistence Daemon...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nvidia-persistenced.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nvidia-persistenced.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2951.[0m
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: Verbose syslog connection opened
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: Now running with user ID 130 and group ID 138
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: [0;1;39m[0;1;31m[0;1;39mStarted (5082)[0m
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: [0;1;31m[0;1;39m[0;1;31mFailed to query NVIDIA devices. Please ensure that the NVIDIA device files (/dev/nvidia*) exist, and that user 130 has read and write permissions for those files.[0m
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: PID file unlocked.
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5081]: nvidia-persistenced failed to initialize. Check syslog for more details.
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: PID file closed.
+Mar 16 10:30:29 SHTLP0113 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnvidia-persistenced.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nvidia-persistenced.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: [0;1;39m[0;1;31m[0;1;39mThe daemon no longer has permission to remove its runtime data directory /var/run/nvidia-persistenced[0m
+Mar 16 10:30:29 SHTLP0113 nvidia-persistenced[5082]: [0;1;39m[0;1;31m[0;1;39mShutdown (5082)[0m
+Mar 16 10:30:29 SHTLP0113 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnvidia-persistenced.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nvidia-persistenced.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 16 10:30:29 SHTLP0113 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start NVIDIA Persistence Daemon.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nvidia-persistenced.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nvidia-persistenced.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 2951 and the job result is failed.[0m

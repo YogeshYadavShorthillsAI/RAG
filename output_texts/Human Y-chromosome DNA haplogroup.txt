@@ -1,0 +1,53 @@
+In human genetics, a human Y-chromosome DNA haplogroup is a haplogroup defined by specific mutations in the non-recombining portions of DNA on the male-specific Y chromosome (Y-DNA). Individuals within a haplogroup share similar numbers of short tandem repeats (STRs) and single-nucleotide polymorphisms (SNPs).[2] The Y-chromosome accumulates approximately two mutations per generation,[3] and Y-DNA haplogroups represent significant branches of the Y-chromosome phylogenetic tree, each characterized by hundreds or even thousands of unique mutations.
+The Y-chromosomal most recent common ancestor (Y-MRCA), often referred to as Y-chromosomal Adam, is the most recent common ancestor from whom all currently living humans are descended patrilineally. Y-chromosomal Adam is estimated to have lived around 236,000 years ago in Africa[citation needed]. By examining other population bottlenecks, most Eurasian men trace their descent from a man who lived in Africa approximately 69,000 years ago (Haplogroup CT). Although Southeast Asia has been proposed as the origin for all non-African human Y chromosomes,[4] this hypothesis is considered unlikely.[5] Other bottlenecks occurred roughly 50,000 and 5,000 years ago, and the majority of Eurasian men are believed to be descended from four ancestors who lived 50,000 years ago, all of whom were descendants of an African lineage (Haplogroup E-M168).[6][7][8]
+Y-DNA haplogroups are defined by the presence of a series of Y-DNA single-nucleotide polymorphisms genetic markers. Subclades are defined by a terminal SNP, the SNP furthest down in the Y-chromosome phylogenetic tree.[9][10] The Y Chromosome Consortium (YCC) developed a system of naming major Y-DNA haplogroups with the capital letters A through T, with further subclades named using numbers and lower case letters (YCC longhand nomenclature). YCC shorthand nomenclature names Y-DNA haplogroups and their subclades with the first letter of the major Y-DNA haplogroup followed by a dash and the name of the defining terminal SNP.[11]
+Y-DNA haplogroup nomenclature is changing over time to accommodate the increasing number of SNPs being discovered and tested, and the resulting expansion of the Y-chromosome phylogenetic tree. This change in nomenclature has resulted in inconsistent nomenclature being used in different sources.[2] This inconsistency, and increasingly cumbersome longhand nomenclature, has prompted a move toward using the simpler shorthand nomenclature.[12]
+Y-chromosomal Adam
+Haplogroup A
+Haplogroup B
+Haplogroup D
+Haplogroup E
+Haplogroup C
+Haplogroup G
+Haplogroup H
+Haplogroup I
+Haplogroup J
+Haplogroup L
+Haplogroup T
+Haplogroup N
+Haplogroup O
+Haplogroup S
+Haplogroup M
+Haplogroup Q
+Haplogroup R
+Haplogroup A is the NRY (non-recombining Y) macrohaplogroup from which all modern paternal haplogroups descend. It is sparsely distributed in Africa, being concentrated among Khoisan populations in the southwest and Nilotic populations toward the northeast in the Nile Valley. BT is a subclade of haplogroup A, more precisely of the A1b clade (A2-T in Cruciani et al. 2011), as follows:
+The defining mutations separating CT (all haplogroups except for A and B) are M168 and M294. The site of origin is likely in Africa. Its age has been estimated at approximately 88,000 years old,[14][15] and more recently at around 100,000[16] or 101,000 years old.[17]
+The groups descending from haplogroup F are found in some 90% of the world's population, but almost exclusively outside of sub-Saharan Africa.
+F xG,H,I,J,K is rare in modern populations and peaks in South Asia, especially Sri Lanka.[13] It also appears to have long been present in South East Asia; it has been reported at rates of 4–5% in Sulawesi and Lembata. One study, which did not comprehensively screen for other subclades of F-M89 (including some subclades of GHIJK), found that Indonesian men with the SNP P14/PF2704 (which is equivalent to M89), comprise 1.8% of men in West Timor, 1.5% of Flores 5.4% of Lembata 2.3% of Sulawesi and 0.2% in Sumatra.[18][19] F* (F xF1,F2,F3) has been reported among 10% of males in Sri Lanka and South India, 5% in Pakistan, as well as lower levels among the Tamang people (Nepal), and in Iran. F1 (P91), F2 (M427) and F3 (M481; previously F5) are all highly rare and virtually exclusive to regions/ethnic minorities in Sri Lanka, India, Nepal, South China, Thailand, Burma, and Vietnam. In such cases, however, the possibility of misidentification is considered to be relatively high and some may belong to misidentified subclades of Haplogroup GHIJK.[20]
+Haplogroup G (M201) originated some 48,000 years ago and its most recent common ancestor likely lived 26,000 years ago in the Middle East. It spread to Europe with the Neolithic Revolution.
+It is found in many ethnic groups in Eurasia; most common in the Caucasus, Iran, Anatolia and the Levant. Found in almost all European countries, but most common in Gagauzia, southeastern Romania, Greece, Italy, Spain, Portugal, Tyrol, and Bohemia with highest concentrations on some Mediterranean islands; uncommon in Northern Europe.[21][22]
+G-M201 is also found in small numbers in northwestern China and India, Bangladesh, Pakistan, Sri Lanka, Malaysia, and North Africa.
+Haplogroup H (M69) probably emerged in Southern Central Asia, South Asia or West Asia, about 48,000 years BP, and remains largely prevalent there in the forms of H1 (M69) and H3 (Z5857). Its sub-clades are also found in lower frequencies in Iran, Central Asia, across the middle-east, and the Arabian peninsula.
+However, H2 (P96) is present in Europe since the Neolithic and H1a1 (M82) spread westward in the Medieval era with the migration of the Roma people.
+Haplogroup I (M170, M258) is found mainly in Europe and the Caucasus.
+Haplogroup J (M304, S6, S34, S35) is found mainly in the Middle East, Caucasus and South-East Europe.
+Haplogroup K (M9) is spread all over Eurasia, Oceania and among Native Americans.
+K(xLT,K2a,K2b) – that is, K*, K2c, K2d or K2e – is found mainly in Melanesia, Aboriginal Australians, India, Polynesia and Island South East Asia.
+Haplogroup L (M20) is found in South Asia, Central Asia, South-West Asia, and the Mediterranean.
+Haplogroup T (M184, M70, M193, M272) is found at high levels in the Horn of Africa (mainly Cushitic-speaking peoples), parts of South Asia, the Middle East, and the Mediterranean. T-M184 is also found in significant minorities of Sciaccensi, Stilfser, Egyptians, Omanis, Sephardi Jews,[23] Ibizans (Eivissencs), and Toubou. It is also found at low frequencies in other parts of the Mediterranean and South Asia.
+The only living males reported to carry the basal paragroup K2* are indigenous Australians. Major studies published in 2014 and 2015 suggest that up to 27% of Aboriginal Australian males carry K2*, while others carry a subclade of K2.
+Haplogroup N (M231) is found in northern Eurasia, especially among speakers of the Uralic languages.
+Haplogroup N possibly originated in eastern Asia and spread both northward and westward into Siberia, being the most common group found in some Uralic-speaking peoples.
+Haplogroup O (M175) is found with its highest frequency in East Asia and Southeast Asia, with lower frequencies in the South Pacific, Central Asia, South Asia, and islands in the Indian Ocean (e.g. Madagascar, the Comoros).
+No examples of the basal paragroup K2b1* have been identified. Males carrying subclades of K2b1 are found primarily among Papuan peoples, Micronesian peoples, indigenous Australians, and Polynesians.
+Its primary subclades are two major haplogroups:
+Haplogroup P (P295) has two primary branches: P1 (P-M45) and the extremely rare P2 (P-B253).[24]
+P*, P1* and P2 are found together only on the island of Luzon in the Philippines.[24] In particular, P* and P1* are found at significant rates among members of the Aeta (or Agta) people of Luzon.[25] While, P1* is now more common among living individuals in Eastern Siberia and Central Asia, it is also found at low levels in mainland South East Asia and South Asia. Considered together, these distributions tend to suggest that P* emerged from K2b in South East Asia.[25][26]
+P1 is also the parent node of two primary clades:
+Haplogroup Q (MEH2, M242, P36) found in Siberia and the Americas
+Haplogroup R (M207, M306): found in Europe, West Asia, Central Asia, and South Asia
+Q is defined by the SNP M242. It is believed to have arisen in Central Asia approximately 32,000 years ago.[27][28] The subclades of Haplogroup Q with their defining mutation(s), according to the 2008 ISOGG tree[29] are provided below. ss4 bp, rs41352448, is not represented in the ISOGG 2008 tree because it is a value for an STR. This low frequency value has been found as a novel Q lineage (Q5) in Indian populations[30]
+The 2008 ISOGG tree
+Haplogroup R is defined by the SNP M207. The bulk of Haplogroup R is represented in the descendant subclade R1 (M173), which originated in Siberia. R1 has two descendant subclades: R1a and R1b.
+R1a is associated with the proto-Indo-Iranian and Balto-Slavic peoples, and is now found predominantly in Central Asia, South Asia, and Eastern Europe.
+Haplogroup R1b is the dominant haplogroup of Western Europe and is also found sparsely distributed among various peoples of Asia and Africa. Its subclade R1b1a2 (M269) is the haplogroup that is most commonly found among modern Western European populations, and has been associated with the Italo-Celtic and Germanic peoples.
