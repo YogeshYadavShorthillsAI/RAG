@@ -18,7 +18,7 @@ MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 LOG_FILE = "qa_interactions.log"
 RESULTS_FILE = "evaluation_results.json"
 SUMMARY_FILE = "evaluation_summary.json"
-TEST_CASES_FILE = "test_cases.json"
+TEST_CASES_FILE = "question_answer_context.json"
 VALID_MODELS = ["mistral-7b", "mistral-tiny", "gpt-4"]
 MISTRAL_MODEL = "mistral-tiny"
 
