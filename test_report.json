@@ -1,0 +1,191 @@
+{
+    "test_cases": [
+        {
+            "TEST CASE ID": "TC001",
+            "SECTION": "Document Processing",
+            "SUB-SECTION": "Chunk Creation",
+            "TEST CASE TITLE": "Create Document Chunks",
+            "TEST DESCRIPTION": "Verify text is properly split into chunks",
+            "PRECONDITIONS": "Sample text available",
+            "TEST DATA": "Sample text (1000 characters)",
+            "TEST STEPS": [
+                "Call create_chunks() with sample text",
+                "Verify returned documents"
+            ],
+            "EXPECTED RESULT": "Should return list of Document objects with metadata",
+            "ACTUAL RESULT": "Returned 2 Document objects with chunk_id",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:45:49.938254"
+        },
+        {
+            "TEST CASE ID": "TC002",
+            "SECTION": "Vector Database",
+            "SUB-SECTION": "FAISS Index",
+            "TEST CASE TITLE": "Create FAISS Index",
+            "TEST DESCRIPTION": "Verify FAISS index is created from documents",
+            "PRECONDITIONS": "Sample documents available",
+            "TEST DATA": "List of 2 Document objects",
+            "TEST STEPS": [
+                "Call create_faiss_index() with sample documents",
+                "Verify index creation"
+            ],
+            "EXPECTED RESULT": "FAISS index should be created and saved",
+            "ACTUAL RESULT": "Expected 'save_local' to be called once. Called 0 times.",
+            "STATUS": "FAIL",
+            "TIMESTAMP": "2025-03-24T17:45:54.342202"
+        },
+        {
+            "TEST CASE ID": "TC003",
+            "SECTION": "Utility Functions",
+            "SUB-SECTION": "Helper",
+            "TEST CASE TITLE": "Get Vectorizer",
+            "TEST DESCRIPTION": "Test the get_vectorizer helper function",
+            "PRECONDITIONS": "HumanHistoryVectorizer class available",
+            "TEST DATA": "No input",
+            "TEST STEPS": [
+                "Call get_vectorizer()",
+                "Verify returned instance"
+            ],
+            "EXPECTED RESULT": "Should return HumanHistoryVectorizer instance",
+            "ACTUAL RESULT": "Returned HumanHistoryVectorizer instance",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:45:58.539064"
+        },
+        {
+            "TEST CASE ID": "TC004",
+            "SECTION": "Initialization",
+            "SUB-SECTION": "Class Setup",
+            "TEST CASE TITLE": "Class Initialization",
+            "TEST DESCRIPTION": "Verify the class initializes with correct parameters",
+            "PRECONDITIONS": "HumanHistoryVectorizer class available",
+            "TEST DATA": "text_file='test.txt', chunk_size=500, chunk_overlap=100, faiss_index_path='test_index'",
+            "TEST STEPS": [
+                "Initialize HumanHistoryVectorizer with test parameters",
+                "Check instance attributes"
+            ],
+            "EXPECTED RESULT": "All parameters should be correctly set in the instance",
+            "ACTUAL RESULT": "All parameters correctly set",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:46:06.906527"
+        },
+        {
+            "TEST CASE ID": "TC005",
+            "SECTION": "Model Initialization",
+            "SUB-SECTION": "Mistral",
+            "TEST CASE TITLE": "Initialize Mistral Model",
+            "TEST DESCRIPTION": "Test Mistral model initialization",
+            "PRECONDITIONS": "MISTRAL_API_KEY set in environment",
+            "TEST DATA": "API key = 'test_key'",
+            "TEST STEPS": [
+                "Call initialize_mistral_model()",
+                "Verify model initialization"
+            ],
+            "EXPECTED RESULT": "Should return initialized ChatMistralAI instance",
+            "ACTUAL RESULT": "Expected 'ChatMistralAI' to be called once. Called 0 times.",
+            "STATUS": "FAIL",
+            "TIMESTAMP": "2025-03-24T17:46:10.577364"
+        },
+        {
+            "TEST CASE ID": "TC006",
+            "SECTION": "Model Initialization",
+            "SUB-SECTION": "Mistral",
+            "TEST CASE TITLE": "Initialize Mistral Without API Key",
+            "TEST DESCRIPTION": "Test error handling when API key is missing",
+            "PRECONDITIONS": "MISTRAL_API_KEY not set",
+            "TEST DATA": "No API key in environment",
+            "TEST STEPS": [
+                "Call initialize_mistral_model() without API key",
+                "Catch expected exception"
+            ],
+            "EXPECTED RESULT": "Should raise ValueError",
+            "ACTUAL RESULT": "Raised ValueError",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:46:14.370831"
+        },
+        {
+            "TEST CASE ID": "TC007",
+            "SECTION": "RAG Pipeline",
+            "SUB-SECTION": "Initialization",
+            "TEST CASE TITLE": "Initialize RAG Pipeline",
+            "TEST DESCRIPTION": "Test RAG pipeline initialization",
+            "PRECONDITIONS": "FAISS index exists, Mistral API key available",
+            "TEST DATA": "Test index path",
+            "TEST STEPS": [
+                "Call initialize_rag_pipeline()",
+                "Verify components are initialized"
+            ],
+            "EXPECTED RESULT": "Should return initialized RetrievalQA instance",
+            "ACTUAL RESULT": "",
+            "STATUS": "RUNNING",
+            "TIMESTAMP": "2025-03-24T17:46:18.834979"
+        },
+        {
+            "TEST CASE ID": "TC008",
+            "SECTION": "Main Processing",
+            "SUB-SECTION": "Pipeline",
+            "TEST CASE TITLE": "Process Method",
+            "TEST DESCRIPTION": "Test the main processing pipeline",
+            "PRECONDITIONS": "All component methods work",
+            "TEST DATA": "Sample text",
+            "TEST STEPS": [
+                "Call process() method",
+                "Verify all sub-methods are called"
+            ],
+            "EXPECTED RESULT": "Should call read_text_file, create_chunks, and create_faiss_index",
+            "ACTUAL RESULT": "All methods called correctly",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:46:23.126455"
+        },
+        {
+            "TEST CASE ID": "TC009",
+            "SECTION": "RAG Pipeline",
+            "SUB-SECTION": "Querying",
+            "TEST CASE TITLE": "Query with RAG",
+            "TEST DESCRIPTION": "Test querying the RAG pipeline",
+            "PRECONDITIONS": "RAG pipeline initialized",
+            "TEST DATA": "Test question",
+            "TEST STEPS": [
+                "Call query_with_rag() with test question",
+                "Verify response"
+            ],
+            "EXPECTED RESULT": "Should return answer from RAG pipeline",
+            "ACTUAL RESULT": "Returned 'test answer'",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:46:27.221597"
+        },
+        {
+            "TEST CASE ID": "TC010",
+            "SECTION": "File Operations",
+            "SUB-SECTION": "Text File Reading",
+            "TEST CASE TITLE": "Read Missing Text File",
+            "TEST DESCRIPTION": "Verify proper error when file doesn't exist",
+            "PRECONDITIONS": "Test file does not exist",
+            "TEST DATA": "nonexistent.txt",
+            "TEST STEPS": [
+                "Call read_text_file() with non-existent file",
+                "Catch expected exception"
+            ],
+            "EXPECTED RESULT": "Should raise FileNotFoundError",
+            "ACTUAL RESULT": "Raised FileNotFoundError",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:46:31.419738"
+        },
+        {
+            "TEST CASE ID": "TC011",
+            "SECTION": "File Operations",
+            "SUB-SECTION": "Text File Reading",
+            "TEST CASE TITLE": "Read Text File Success",
+            "TEST DESCRIPTION": "Verify text file is read successfully",
+            "PRECONDITIONS": "Test file exists with content",
+            "TEST DATA": "test.txt with content 'test content'",
+            "TEST STEPS": [
+                "Call read_text_file() method",
+                "Verify returned content"
+            ],
+            "EXPECTED RESULT": "Method should return file content",
+            "ACTUAL RESULT": "",
+            "STATUS": "RUNNING",
+            "TIMESTAMP": "2025-03-24T17:46:38.582496"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "test_cases": [
+        {
+            "TEST CASE ID": "TC001",
+            "SECTION": "Metrics",
+            "SUB-SECTION": "Calculation",
+            "TEST CASE TITLE": "Calculate Metrics",
+            "TEST DESCRIPTION": "Test metric calculation logic",
+            "PRECONDITIONS": "Sample generated and reference text",
+            "TEST DATA": "Generated: 'test', Reference: 'test'",
+            "TEST STEPS": [
+                "Call calculate_metrics() with test inputs",
+                "Verify all metrics are calculated correctly"
+            ],
+            "EXPECTED RESULT": "Should return correct metric scores",
+            "ACTUAL RESULT": "0.9249999403953553 != 0.8500000000000001 within 7 places (0.07499994039535518 difference)",
+            "STATUS": "FAIL",
+            "TIMESTAMP": "2025-03-24T17:45:24.747236"
+        },
+        {
+            "TEST CASE ID": "TC002",
+            "SECTION": "Logger",
+            "SUB-SECTION": "Interaction",
+            "TEST CASE TITLE": "Log Interaction",
+            "TEST DESCRIPTION": "Test logging a new interaction",
+            "PRECONDITIONS": "Log file exists with content",
+            "TEST DATA": "Sample log entry",
+            "TEST STEPS": [
+                "Call log_interaction() with new entry",
+                "Verify entry is appended to log"
+            ],
+            "EXPECTED RESULT": "New entry should be added to log file",
+            "ACTUAL RESULT": "Entry successfully added to log",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:45:25.840914"
+        },
+        {
+            "TEST CASE ID": "TC003",
+            "SECTION": "Logger",
+            "SUB-SECTION": "Error Handling",
+            "TEST CASE TITLE": "Log Interaction Corrupted File",
+            "TEST DESCRIPTION": "Test handling of corrupted log file",
+            "PRECONDITIONS": "Log file exists but is corrupted",
+            "TEST DATA": "Corrupted JSON file",
+            "TEST STEPS": [
+                "Call log_interaction() with corrupted file",
+                "Verify new file is created with the entry"
+            ],
+            "EXPECTED RESULT": "Should create new file with the entry",
+            "ACTUAL RESULT": "",
+            "STATUS": "RUNNING",
+            "TIMESTAMP": "2025-03-24T17:45:25.843377"
+        },
+        {
+            "TEST CASE ID": "TC004",
+            "SECTION": "Logger",
+            "SUB-SECTION": "Setup",
+            "TEST CASE TITLE": "Logger Creates File",
+            "TEST DESCRIPTION": "Test that logger creates file when none exists",
+            "PRECONDITIONS": "Log file does not exist",
+            "TEST DATA": "None",
+            "TEST STEPS": [
+                "Call setup_logger() when file doesn't exist",
+                "Verify file is created with empty array"
+            ],
+            "EXPECTED RESULT": "File should be created with empty JSON array",
+            "ACTUAL RESULT": "File created with empty array",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:45:25.845615"
+        },
+        {
+            "TEST CASE ID": "TC005",
+            "SECTION": "Logger",
+            "SUB-SECTION": "Setup",
+            "TEST CASE TITLE": "Logger Handles Empty File",
+            "TEST DESCRIPTION": "Test that logger handles empty existing file",
+            "PRECONDITIONS": "Log file exists but is empty",
+            "TEST DATA": "Empty file",
+            "TEST STEPS": [
+                "Call setup_logger() with empty file",
+                "Verify file is initialized with empty array"
+            ],
+            "EXPECTED RESULT": "File should be initialized with empty JSON array",
+            "ACTUAL RESULT": "File initialized with empty array",
+            "STATUS": "PASS",
+            "TIMESTAMP": "2025-03-24T17:45:25.851532"
+        }
+    ]
+}
