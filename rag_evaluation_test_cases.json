@@ -1,0 +1,44 @@
+[
+    {
+        "TEST CASE ID": "TC001",
+        "SECTION": "Human History",
+        "SUB-SECTION": "Sexual Division of Labor",
+        "TEST CASE TITLE": "Understanding SDL in Hunter-Gatherer Societies",
+        "TEST DESCRIPTION": "Evaluate how the sexual division of labor differs among human hunter-gatherer societies compared to other species.",
+        "PRECONDITIONS": "Knowledge of hunter-gatherer lifestyles and food acquisition patterns.",
+        "TEST DATA": {
+            "context": "Sexual division of labour (SDL) is the delegation of different tasks between the male and female members of a species...",
+            "question": "What is the sexual division of labor (SDL) and how does it differ among human hunter-gatherer societies compared to other species?",
+            "expected_answer": "The Sexual Division of Labor (SDL) refers to the delegation of different tasks between male and female members of a species..."
+        },
+        "TEST STEPS": [
+            "Read the provided context.",
+            "Analyze the gender-based division of labor in hunter-gatherer societies.",
+            "Compare SDL in humans with other species."
+        ],
+        "EXPECTED RESULT": "A clear understanding of the combined food acquisition and sharing model unique to humans.",
+        "ACTUAL RESULT": "as expected",
+        "STATUS": "pass"
+    },
+    {
+        "TEST CASE ID": "TC002",
+        "SECTION": "Human History",
+        "SUB-SECTION": "Gendered Roles in Foraging Societies",
+        "TEST CASE TITLE": "Historical Perspective on Gendered Roles",
+        "TEST DESCRIPTION": "Evaluate the historical perspective on gendered roles in hunter-gatherer societies and identify key anthropologists.",
+        "PRECONDITIONS": "Familiarity with anthropological studies on early human societies.",
+        "TEST DATA": {
+            "context": "From the 1970s onward, the dominant paleontological perspective of gendered roles in hunter-gatherer societies was of a model...",
+            "question": "What is the historical perspective on gendered roles in hunter-gatherer societies, as highlighted in the text, and who were the anthropologists who coined this perspective?",
+            "expected_answer": "The historical perspective on gendered roles in hunter-gatherer societies was primarily a model termed 'Man the Hunter, Woman the Gatherer'..."
+        },
+        "TEST STEPS": [
+            "Review the historical model.",
+            "Identify anthropologists who proposed the theory.",
+            "Compare it with modern research findings."
+        ],
+        "EXPECTED RESULT": "Understanding of the 'Man the Hunter, Woman the Gatherer' model and its critiques.",
+        "ACTUAL RESULT": "as expected",
+        "STATUS": "pass"
+    }
+]

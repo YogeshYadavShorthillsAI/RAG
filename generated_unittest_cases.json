@@ -1,0 +1,63 @@
+[
+    {
+        "TEST CASE ID": "TC_001",
+        "SECTION": "QA Pipeline",
+        "SUB-SECTION": "Response Generation",
+        "TEST CASE TITLE": "Verify QA Pipeline Generates Correct Response",
+        "TEST DESCRIPTION": "Ensure that the QA pipeline correctly generates an answer based on given context.",
+        "PRECONDITIONS": "API should be accessible and functional.",
+        "TEST DATA": {
+            "question": "Who was the first president of the United States?",
+            "context": "George Washington was the first president of the United States, serving from 1789 to 1797."
+        },
+        "TEST STEPS": [
+            "Call the `qa_pipeline` function with the test question and context.",
+            "Capture the generated response.",
+            "Compare it with the expected answer."
+        ],
+        "EXPECTED RESULT": "The generated response should be 'George Washington.'",
+        "ACTUAL RESULT": "Pending execution",
+        "STATUS": "Not Executed"
+    },
+    {
+        "TEST CASE ID": "TC_002",
+        "SECTION": "Metrics Calculation",
+        "SUB-SECTION": "Scoring",
+        "TEST CASE TITLE": "Verify Metric Calculation",
+        "TEST DESCRIPTION": "Check if the `calculate_metrics` function returns valid scores.",
+        "PRECONDITIONS": "The function should be correctly implemented.",
+        "TEST DATA": {
+            "generated_answer": "George Washington was the first U.S. president.",
+            "reference_answer": "George Washington."
+        },
+        "TEST STEPS": [
+            "Call the `calculate_metrics` function with generated and reference answers.",
+            "Check if the returned dictionary contains expected keys.",
+            "Ensure that the scores are within valid ranges."
+        ],
+        "EXPECTED RESULT": "The dictionary should contain 'rouge_score', 'cosine_similarity', 'bert_score_f1', and 'final_score' with values between 0 and 1.",
+        "ACTUAL RESULT": "Pending execution",
+        "STATUS": "Not Executed"
+    },
+    {
+        "TEST CASE ID": "TC_003",
+        "SECTION": "Logging",
+        "SUB-SECTION": "Interaction Logging",
+        "TEST CASE TITLE": "Verify Log Interaction Functionality",
+        "TEST DESCRIPTION": "Ensure the `log_interaction` function correctly logs QA interactions.",
+        "PRECONDITIONS": "Log file should be writable.",
+        "TEST DATA": {
+            "question": "Who was the first president of the United States?",
+            "context": "George Washington was the first president of the United States.",
+            "generated_answer": "George Washington.",
+            "reference_answer": "George Washington."
+        },
+        "TEST STEPS": [
+            "Call the `log_interaction` function with a sample log entry.",
+            "Open the log file and check if the entry is recorded."
+        ],
+        "EXPECTED RESULT": "The log file should contain an entry with the correct data.",
+        "ACTUAL RESULT": "Pending execution",
+        "STATUS": "Not Executed"
+    }
+]

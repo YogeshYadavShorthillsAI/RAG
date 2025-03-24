@@ -1,0 +1,7 @@
+{
+    "rouge_score": 0.47971807395221394,
+    "cosine_similarity": 0.8944642620093851,
+    "bert_score_f1": 0.7637133172836649,
+    "final_score": 0.7254022426322322,
+    "grade": "C (Average)"
+}

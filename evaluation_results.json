@@ -1,0 +1,13 @@
+[
+    {
+        "timestamp": "2025-03-24T14:29:45.641211",
+        "question": "Who was the first president?",
+        "context": "George Washington was the first president.",
+        "generated_answer": "George Washington.",
+        "reference_answer": "George Washington.",
+        "rouge_score": 1.0,
+        "cosine_similarity": 1.0,
+        "bert_score_f1": 0.9999999403953552,
+        "final_score": 0.9999999701976776
+    }
+]
